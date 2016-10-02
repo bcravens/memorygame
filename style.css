@@ -4,7 +4,7 @@ h1 {
 h2 {
 	color: #ffd700;
 }
-#board {
+.board {
 	height: 50%;
 	width: 50%;
 	display: inline-block;
@@ -51,4 +51,10 @@ footer {
 }
 h1, h2, p, footer {
 	text-align: center;
+}
+body {
+     text-align: center;
+     background: url("http://i.imgur.com/WI0UPOg.jpg");
+     background-size: cover;
+     background-position: center;
 }

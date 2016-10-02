@@ -1,10 +1,4 @@
-h1 {
-	color: rgb(2,132,130);
-}
-h2 {
-	color: #ffd700;
-}
-#board {
+.board {
 	height: 50%;
 	width: 50%;
 	display: inline-block;
@@ -12,33 +6,39 @@ h2 {
 	margin: 8%;
 }
 .card {
-	height: 200px;
+	height: 215px;
 	width: 150px;
-	border: 1px #000000 solid;
-	background-color: rgb(255,255,0);   
-	border-radius: 10px;
-	margin: 8%;
+	background: url("http://i.imgur.com/oocnCWr.png");   
+	margin: 7%;
 	float: left;
 }
 .name {
-	color: #ff0000;
+	color: rgb(255, 255, 255);
 }
 nav {
-	background-color: #808080;
+	background: rgba(0,0,0,0.5);
+	border-radius: 12px;
 }
 nav a {
 	text-decoration: none;
 	color: white;
-	background-color: #ffbf00;
+	background: rgba(0,0,0,0.5);
 	padding: 35px;
 	display: block;
 	float: left;
 }
+#round {
+	border-radius: 12px 0px 0px 12px;
+}
 a:hover {
-	background-color:  #ee5f3c;
+	background: rgba(0,0,0,1);
 }
 footer {
 	background-color: #808080;
+	clear:both;
+	border-radius: 8px;
+}
+#clearToBottom {
 	clear:both;
 }
 .clearfix:after {
@@ -51,4 +51,15 @@ footer {
 }
 h1, h2, p, footer {
 	text-align: center;
+}
+h1, h2, p {
+	color: rgb(0,0,0);
+	max-width: 500px;
+	margin: 0 auto;
+}
+body {
+     background: url("http://i.imgur.com/njy2YOB.png");
+     background-position: center;
+     color: white;
+     font-family: 'Roboto Condensed', sans-serif; 
 }
